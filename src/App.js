@@ -4,17 +4,18 @@ import React, { Component} from 'react';
 class App extends Component {
   state = {value: 0}
 
-  inc() {
+  inc = () => {
     // this.setState({ value: this.state.value + 1})
     this.setState( (state) => {
       return { value: state.value + 1}
     })
   }
 
-  dec() {
+  dec = () => {
     this.setState( (state) => {
       return { value: state.value - 1}
     })
+    console.log(this.state.value)
   }
 
 render(){
