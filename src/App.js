@@ -8,12 +8,11 @@ render(){
   return(
     <div>
     <h1 className = 'colored'>Counter Example</h1>
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
+      <Counter name = 'red'/>
+      <Counter name = 'blue'/>
+      <Counter name = 'green'/>
+      <Counter name = 'purple'/>
+      <Counter name = 'black'/>
     </div>
     )
   }
